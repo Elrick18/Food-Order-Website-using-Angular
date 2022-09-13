@@ -44,7 +44,7 @@ export class FoodService {
         favorite:false,
         origins:['United States','Germany'],
         star:4.5,
-        imageUrl: 'Food-Order-Website-using-Angular/src/assets/food1.jpg', /*need to remove this*/
+        imageUrl: 'assets/food1.jpg', /*need to remove this*/
         tags: ['FastFood','Burger']
       },
       {
@@ -55,7 +55,7 @@ export class FoodService {
         favorite:false,
         origins:['Italy'],
         star:5,
-        imageUrl: '/assets/food2.jpg',
+        imageUrl: 'assets/food2.jpg',
         tags: ['FastFood','Pizza','Lunch']
       },
       {
