@@ -44,7 +44,7 @@ export class FoodService {
         favorite:false,
         origins:['United States','Germany'],
         star:4.5,
-        imageUrl: 'assets/food1.jpg', /*need to remove this*/
+        imageUrl: 'https://github.com/Elrick18/Food-Order-Website-using-Angular/blob/main/src/assets/food1.jpg', /*need to remove this*/
         tags: ['FastFood','Burger']
       },
       {
