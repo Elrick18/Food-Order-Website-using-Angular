@@ -44,7 +44,7 @@ export class FoodService {
         favorite:false,
         origins:['United States','Germany'],
         star:4.5,
-        imageUrl: '/assets/food1.jpg',
+        imageUrl: './../../assets/food1.jpg', /*need to remove this*/
         tags: ['FastFood','Burger']
       },
       {
@@ -55,7 +55,7 @@ export class FoodService {
         favorite:false,
         origins:['Italy'],
         star:5,
-        imageUrl: '/assets/food2.jpg',
+        imageUrl: './../../assets/food2.jpg',
         tags: ['FastFood','Pizza','Lunch']
       },
       {
@@ -66,7 +66,7 @@ export class FoodService {
         favorite:false,
         origins:['Persia','Middle East','China'],
         star:4.5,
-        imageUrl: '/assets/food3.jpg',
+        imageUrl: './../../assets/food3.jpg',
         tags: ['MeatBall','Lunch']
       },
       {
@@ -77,7 +77,7 @@ export class FoodService {
         favorite:true,
         origins:['Belgium','France','India'],
         star:4.5,
-        imageUrl: '/assets/food4.jpg',
+        imageUrl: './../../assets/food4.jpg',
         tags: ['FastFood','fries']
       },
       {
@@ -88,7 +88,7 @@ export class FoodService {
         favorite:false,
         origins:['Germany','India'],
         star:4,
-        imageUrl: '/assets/food5.jpg',
+        imageUrl: './../../assets/food5.jpg',
         tags: ['FastFood','soup']
       },
       {
@@ -99,7 +99,7 @@ export class FoodService {
         favorite:true,
         origins:['India'],
         star:5,
-        imageUrl: '/assets/food6.jpg',
+        imageUrl: './../../assets/food6.jpg',
         tags: ['Biryani','Lunch']
       },
       {
@@ -110,7 +110,7 @@ export class FoodService {
         favorite:false,
         origins:['Italy'],
         star:4.5,
-        imageUrl: '/assets/food7.jpg',
+        imageUrl: './../../assets/food7.jpg',
         tags: ['FastFood','Pasta']
       },
       {
@@ -121,7 +121,7 @@ export class FoodService {
         favorite:true,
         origins:['China'],
         star:4.5,
-        imageUrl: '/assets/food8.jpg',
+        imageUrl: './../../assets/food8.jpg',
         tags: ['FastFood','Noodles']
       }
     ]
