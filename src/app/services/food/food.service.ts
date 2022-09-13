@@ -44,7 +44,7 @@ export class FoodService {
         favorite:false,
         origins:['United States','Germany'],
         star:4.5,
-        imageUrl: '/assets/food1.jpg', /*need to remove this*/
+        imageUrl: './assets/food1.jpg', /*need to remove this*/
         tags: ['FastFood','Burger']
       },
       {
